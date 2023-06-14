@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<form>
+	<form method="get" id="form1">
 		Name* <input type="text" required ><br>
 		<BR>
 		Email* <input type="text" required ><br>
@@ -35,11 +35,12 @@
 		<BR>
 		Password* <input type="text" required ><br>
 		<BR>
-		<b>I agree to the TOS*<b><br>
+		I agree to the TOS*<br>
 		<input type="checkbox" id="yes" value="agree" required>
 		<label for="yes">Agree</label>
 		
-	</form>
+		</form><BR>
+			<button type="submit" form="form1">SUBMIT</button>
 		
     <script type="text/javascript" src="./script.js">
 </script>
